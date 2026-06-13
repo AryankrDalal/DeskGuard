@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import logo from "./assets/image.png";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://deskguard-kts5.onrender.com";
 
 function App() {
   const [desks, setDesks] = useState([]);
